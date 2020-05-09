@@ -1,0 +1,11 @@
+weather-report:
+  api: https://www.ilmateenistus.ee
+
+server:
+  port: 8081
+
+feign:
+  client:
+    config:
+      default:
+        loggerLevel: FULL
