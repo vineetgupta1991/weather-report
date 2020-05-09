@@ -5,8 +5,8 @@ Java Case Study – Weather forecast
  1. The API should expose a ​“/v1/weather/report”​​ endpoint to retrieve the weather forecast information.  
  2. The​ “/v1/weather/report” ​​endpoint should return a JSON object that gives the below information: 
     * Min/Max temperature of next few days for specific place and region all together.
-    * Wind speed information. 
- 3. Other data like phenomenon, places etc.
+    * Wind speed information.
+    * Other data like phenomenon, places etc.
  
 # Tools Used
 
