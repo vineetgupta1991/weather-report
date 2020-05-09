@@ -20,7 +20,7 @@ public class WeatherReportController {
     private WeatherReportService weatherReportService;
 
     @ApiOperation(value = "Get weather forecast")
-    @ApiImplicitParam(name = "language", required = true, dataType = "string", paramType = "header", value = "")
+    @ApiImplicitParam(name = "language", required = true, dataType = "string", paramType = "header", value = "", defaultValue = "eng")
     @ApiResponses(value = {
             @ApiResponse(code = 400, message = "Validation Failed"),
             @ApiResponse(code = 500, message = "Internal Server Error")
