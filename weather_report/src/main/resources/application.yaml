@@ -4,8 +4,14 @@ weather-report:
 server:
   port: 8081
 
+logging:
+  level:
+    org:
+      springframework:
+        web: INFO
+
 feign:
   client:
     config:
       default:
-        loggerLevel: FULL
+        loggerLevel: BASIC

@@ -22,6 +22,8 @@ Mapstruct
 
 Feign Client
 
+Logbook
+
 ## 
 
 Import into your IDE as a gradle project and run.

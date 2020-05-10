@@ -27,6 +27,7 @@ dependencies {
     implementation("org.projectlombok:lombok:${lombokVersion}")
     implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.11.0")
     implementation("org.mapstruct:mapstruct:${mapstructVersion}")
+    implementation("org.zalando:logbook-spring-boot-starter:1.13.0")
     annotationProcessor("org.mapstruct:mapstruct-processor:${mapstructVersion}")
     annotationProcessor("org.projectlombok:lombok:${lombokVersion}")
 	testImplementation("org.testcontainers:junit-jupiter:1.12.2")
